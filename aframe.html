@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Amore Horan</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c406d58a32.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="headerR">
+      <div class="container">
+        <nav>
+          <img
+            src="https://cdn.glitch.global/05871bad-ec45-4b33-a607-59133031a521/LOGGO.png?v=1700194942268"
+            class="logo"
+            alt="Logo"
+          />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects"> Photos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Projects</p>
+          <h1>A Frame - 3D Virtual Experience</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://cdn.glitch.global/05871bad-ec45-4b33-a607-59133031a521/Captureaframe3.PNG?v=1702062049714"
+              alt="aframe front"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About This Project</h1>
+            <p>
+              During my "Intro to Computational Media 2700" class, I had the
+              exciting opportunity to collaborate with a partner and create a
+              captivating 3D virtual cabin experience using HTML and A-Frame on
+              the Glitch platform. Together, we designed and built an immersive
+              virtual environment that showcased our creative and technical
+              skills. This project not only allowed us to explore the
+              possibilities of interactive 3D design but also provided a unique
+              learning experience that was both challenging and rewarding.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Key Details</span>
+                  <br />
+                  <ul class="Job-desc">
+                    <li>Developed a 3D Virtual Cabin Experience on Glitch</li>
+                    <li>
+                      Utilized HTML and A-Frame Technologies for Virtual
+                      Environment
+                    </li>
+                    <li>Collaborated with a Partner as a Duo Team</li>
+                    <li>
+                      Created as Part of the "Intro to Computational Media 2700"
+                      Class
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <span>Skills Used</span><br />
+                  <ul class="Job-desc">
+                    <li>Glitch, A-Frame, HTML</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>Georgia Institute of Technology</span>
+                  <br />August 2020 - Current
+                  <ul class="Job-desc">
+                    <li>
+                      Candidate for Bachelor of Science in Business
+                      Administration - Information Technology Management
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- projects -->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">Project Photos</h1>
+        <div class="project-list">
+          <div class="project-item">
+            <img
+              src="https://cdn.glitch.global/05871bad-ec45-4b33-a607-59133031a521/aframe%20code.PNG?v=1702062032661"
+              alt="HTML- Aframe Capture"
+            />
+            <div class="project-details">
+              <h2>HTML</h2>
+            </div>
+          </div>
+          <div class="project-item">
+            <img
+              src="https://cdn.glitch.global/05871bad-ec45-4b33-a607-59133031a521/aframe2.PNG?v=1702062030272"
+              alt="Aframe Capture"
+            />
+            <div class="project-details">
+              <h2>Side profile of cabin</h2>
+            </div>
+          </div>
+          <div class="project-item">
+            <img
+              src="https://cdn.glitch.global/05871bad-ec45-4b33-a607-59133031a521/Captureaframe3.PNG?v=1702062049714"
+              alt="FAframe Capture"
+            />
+            <div class="project-details">
+              <h2>Front profile of cabin</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-reply"></i>Horan.amore@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>(305)-906-0381</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/amore-horan/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/amorehoran/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://github.com/ahoran12"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+            </div>
+            <a
+              href="https://cdn.glitch.global/05871bad-ec45-4b33-a607-59133031a521/Resume.pdf?v=1700235646629"
+              download
+              class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----script----->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (var i = 0; i < tabcontents.length; i++) {
+          tabcontents[i].style.display = "none";
+        }
+
+        for (var i = 0; i < tablinks.length; i++) {
+          tablinks[i].classList.remove("active-link");
+        }
+
+        document.getElementById(tabname).style.display = "block";
+        event.currentTarget.classList.add("active-link");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxhBoWKQPH1T6kWTRu1qEzfnQZtrTjsHAmToQHZwPV33nVxeFEZdxspb7NFhpkTVQYr/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Recieved Succesfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
